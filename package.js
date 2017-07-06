@@ -1,9 +1,9 @@
 // Meteor package definition.
 Package.describe({
-  name: 'urbanetic:bismuth-utility',
+  name: 'crc4si:bismuth-utility',
   version: '0.3.0',
   summary: 'A set of utilities for working with GIS apps.',
-  git: 'https://github.com/urbanetic/bismuth-reports.git'
+  git: 'https://github.com/crc-si/bismuth-reports.git'
 });
 
 Npm.depends({
@@ -20,13 +20,13 @@ Package.onUse(function (api) {
     'aramk:requirejs@2.1.15_1',
     'reactive-var@1.0.5',
     'urbanetic:accounts-ui@0.2.2',
-    'urbanetic:bismuth-schema-utility@0.3.0',
+    'crc4si:bismuth-schema-utility@0.3.0',
     'urbanetic:utility@1.2.0'
   ], ['client', 'server']);
   // TODO(aramk) Weak dependency on aramk:file-upload@0.4.0, but causes cyclic dependencies.
   api.use([
-    'urbanetic:bismuth-schema@0.3.0',
-    'urbanetic:atlas-util@0.3.0',
+    'crc4s:bismuth-schema@0.3.0',
+    'crc4si:atlas-util@0.3.0',
     'peerlibrary:aws-sdk@2.1.47_1'
   ], ['client', 'server'], {weak: true});
   api.use([
