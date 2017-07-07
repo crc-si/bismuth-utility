@@ -1,4 +1,4 @@
-return unless Package['urbanetic:atlas-util']?
+return unless Package['crc4si:atlas-util']?
 
 EntityUtils =
 
