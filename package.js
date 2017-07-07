@@ -1,7 +1,7 @@
 // Meteor package definition.
 Package.describe({
   name: 'crc4si:bismuth-utility',
-  version: '0.3.2',
+  version: '0.3.3',
   summary: 'A set of utilities for working with GIS apps.',
   git: 'https://github.com/crc-si/bismuth-utility.git'
 });
