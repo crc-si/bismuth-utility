@@ -1,4 +1,4 @@
-return unless Package['crc4si:atlas-util']?
+return unless Package['crc4:atlas-util']?
 
 EntityUtils =
 
